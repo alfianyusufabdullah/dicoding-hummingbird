@@ -1,6 +1,7 @@
 import 'dart:html';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_web/constants.dart';
 import 'package:flutter_web/responsive_widget.dart';
 
 class BigScreen extends StatefulWidget {
@@ -56,7 +57,7 @@ class _BigScreenState extends State<BigScreen> {
                       crossAxisAlignment: crossAxisAlignmentResponsive,
                       children: [
                         Text(
-                          "Bangun Karirmu Sebagai\nDeveloper Profesional",
+                          kDicodingHeadline,
                           textAlign: textAlignResponsive,
                           style: TextStyle(
                             fontSize: 40,
@@ -73,7 +74,7 @@ class _BigScreenState extends State<BigScreen> {
                                     ? 1.3
                                     : 2),
                             child: Text(
-                              "Visi dicoding adalah menjadi jaringan terbaik untuk developer di Indonesia. Dicoding memiliki dua misi utama. Pertama adalah membantu developer untuk menjadi entrepreneur yang mampu mengembangkan produk kelas dunia. Kedua adalah melahirkan talent digital sebanyak mungkin untuk industry IT di Indonesia.",
+                              kDicodingSubHeadline,
                               style: TextStyle(
                                   fontSize: 17, color: Colors.black54),
                               textAlign: textAlignResponsive,
